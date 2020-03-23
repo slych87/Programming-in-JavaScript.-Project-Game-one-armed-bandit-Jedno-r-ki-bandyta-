@@ -5,14 +5,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Jednoręki bandyta</title>
+  <title>One-armed bandit</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <div class="wrap">
 
-    <h1>Jednoręki bandyta</h1>
+    <h1>One-armed bandit</h1>
 
     <section class="game">
       <div class="color"></div>
@@ -21,19 +21,22 @@
     </section>
 
     <section class="play">
-      <input type="number" placeholder="Podaj stawkę" id="bid">
-      <button id="start">Zakręć!</button>
+      <input type="number" placeholder="Enter the rate" id="bid">
+      <button id="start">Spin!</button>
     </section>
 
-    <section class="panel">TWOJE SRODKI PRZED KOLEJNĄ GRĄ TO: <span class="wallet"></span></section>
+    <section class="panel">YOUR MONEY BEFORE THE NEXT GAME: <span class="wallet"></span></section>
 
     <section class="score">
-      <span class="result"></span> Za tobą <span class="number"></span> gier, w tym <span class="win"></span> wygranych
-      i <span class="loss"></span> przegranych
+      <span class="result"></span> Behind you <span class="number"></span> games including <span class="win"></span>
+      winnings
+      i <span class="loss"></span> losers
     </section>
 
   </div>
-  <script src="game.js"></script>
+  <script src="Wallet.js"></script>
+  <!-- <script src="Game.js"></script>
+  <script src="main.js.js"></script> -->
 </body>
 
 </html>
