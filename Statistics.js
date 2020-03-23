@@ -1,6 +1,6 @@
 class Statistics {
     constructor() {
-        this.gameResults = [{ win: true, bid: 2 }, { win: false, bid: -10 }];
+        this.gameResults = [{ win: true, bid: 2 }, { win: true, bid: 2 }, { win: false, bid: -10 }];
 
     }
 
