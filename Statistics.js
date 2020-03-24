@@ -1,6 +1,6 @@
 class Statistics {
     constructor() {
-        this.gameResults = [{ win: true, bid: 2 }, { win: true, bid: 2 }, { win: false, bid: -10 }];
+        this.gameResults = [];
 
     }
 
@@ -9,7 +9,7 @@ class Statistics {
             win,
             bid
         }
-        console.log(gameResult);
+        // console.log(gameResult);
         this.gameResults.push(gameResult);
     }
     showGameStatistics() {
@@ -17,9 +17,9 @@ class Statistics {
         let wins = this.gameResults.filter(result => result.win).length;
         let losses = this.gameResults.filter(result => !result.win).length;
 
-        console.log(games, wins, losses);
+        // console.log(games, wins, losses);
         // this is how it should look like
-        //return [numberOfGames, numberOfWins, numberOfLosses
+        return [games, wins, losses]
 
     }
 }
